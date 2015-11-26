@@ -11,14 +11,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-group :development, :test do
-  gem 'byebug'
-end
-
-group :development do
-  gem 'web-console', '~> 2.0'
-  gem 'spring'
-end
+gem 'spring', group: :development
 
 # New gems
 
@@ -30,6 +23,7 @@ gem 'mini_magick'
 gem 'puma'
 gem 'devise'
 gem 'country_select'
+gem 'braintree'
 
 group :test do
   gem 'minitest-rails'
